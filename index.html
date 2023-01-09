@@ -5,13 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M06-05-FT-01</title>
+    <link rel="stylesheet" href="css/styles.css">
 
 </head>
 <body>
 
-    <img src = "img/christmas-g417c01d98_1920.jpg" onclick="hanFetClick()" name="img">
-    <input type = "button" value = "navidad" id = "navidad" onclick="hanFetClick()" name = "boton">
+    <img src = "img/christmas-g417c01d98_1920.jpg" onclick="hanFetClick()" >
+    <input type = "button" value = "navidad" id = "navidad" onclick="hanFetClick()" >
     <script src="js/scripts.js"></script>
-    
+    <input type="button" value = "Afegir tasca" onclick="novaTasca()">
+    <input type = "text" placeholder = "Afegeix el nom de la tasca" id = "tasca" >
+
+    <ul id = "lista">
+        <li>Examen M06</li>
+        <li>Entrega Projecte</li>
+        <li>Practica M06</li>
+        <li>Practica M08</li>
+        <li>Examen M08</li>
+
+    </ul>
+
+
+    <input type="button" value="timeout" onclick="espera()">
 </body>
 </html>
