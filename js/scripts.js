@@ -19,16 +19,6 @@ function espera(){
     alert("Acaba el evento");
 }
 
-/*function novaTasca(){
-    tasca = document.getElementById("tasca").value;
-
-    data = document.querySelector(".lista");
-    document.body.appendChild(tasca);
-
-
-    
-}*/
-
 
 
 function novaTasca() {
